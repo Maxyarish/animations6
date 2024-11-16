@@ -23,7 +23,7 @@ function animateApp(open) {
     const translateX = `${iconRect.left - appRect.left}px`;
     const translateY = `${iconRect.top - appRect.top}px`;
 
-    appScreen.style.transition = 'transform 0.4s ease-in-out, opacity 0s ease-in-out';
+    appScreen.style.transition = 'transform 0.4s ease-in-out, opacity 0.5s ease-in-out';
 
     const currentScale = window.getComputedStyle(appScreen).transform.includes('matrix')
       ? window.getComputedStyle(appScreen).transform
