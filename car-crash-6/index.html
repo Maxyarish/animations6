@@ -1,15 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 <meta charset="viewport" content="width=device-width, initial-scale=1.0">
 <title>Имитация экрана телефона</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 <body class='body' class="app-screen">
 <div class="phone">
     <div id="notch" class="notch"></div>
     <div class="screen" id="phoneScreen">
-        <div > <img src="./images/завантаження.jpeg" class='wallpaper' alt="ios wallpaper"></div>
+        <div> 
+            <img src="./images/завантаження.jpeg" class='wallpaper' alt="ios wallpaper">
+        </div>
         <div id="icon" class="icon"></div>
         <div id="appScreen" class="app-screen">
             <div id="site">
@@ -23,35 +26,26 @@
                         </ul>
                     </nav>
                 </header>
-            
                 <section id="about">
                     <h2>О сайте</h2>
                     <p>Этот сайт выполнен без использования JavaScript. Все взаимодействие — только на основе HTML и CSS.</p>
                 </section>
-            
                 <section id="gallery">
                     <h2>Галерея</h2>
-                    <div class="gallery-container">
-                   </div>
+                    <div class="gallery-container"></div>
                 </section>
-            
                 <section id="contact">
                     <h2>Контакты</h2>
-                    <p>Вы можете связаться с нами по электронной почте: <a href="mailto:contact@site.com">contact@site.com</a></p>
+                    <p>Связаться с нами: <a href="mailto:contact@site.com">contact@site.com</a></p>
                 </section>
-            
                 <footer>
                     <p>2024 © Мини-сайт без JavaScript</p>
                 </footer>
             </div>
-                </div>
-            </div>
-            <div class="app-content12">
-         </div>
         </div>
     </div>
 </div>
-<button id="toggleGestures">Включить жесты</button>
-<script src="index.js"></script>
+<button id="toggleGestures" class="button">Включить жесты</button>
+<script defer src="./index.js"></script>
 </body>
-</html>
+</html
